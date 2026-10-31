@@ -1994,6 +1994,19 @@ html[data-theme="dark"] footer {
   color: #ddd;
 }
 
+.site-legal {
+  width: min(1090px, calc(100% - 28px));
+  margin: 10px auto 24px;
+  color: #888;
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+[data-theme="light"] .site-legal {
+  color: #555;
+}
+
 @media (max-width: 650px) {
   .timeline-dock {
     grid-template-columns: 34px minmax(0, 1fr);
